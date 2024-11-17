@@ -1,0 +1,75 @@
+.nav {
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 10;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	padding: 40px 60px;
+	background: linear-gradient(#120e1c 0%, #120e1c99 25%, rgba(0, 0, 0, 0) 100%);
+}
+
+.nav:hover{
+		background-color: #ffffff9a;
+		transition: background-color .3s;
+}
+
+.logo {
+	font-weight: 700;
+	color: #fff;
+	font-size: 1.5rem;
+	font-style: italic;
+	position: relative;
+	padding: 5px;
+	&::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 50%;
+		height: 100%;
+		background-color: rgb(255, 0, 0);
+		z-index: -1;
+		clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
+	}
+}
+
+.nav__info a {
+	color: #fff;
+	font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.nav__info a:hover {
+	color: #ff285c;
+	transition: 0.3s;
+}
+
+.nav__info {
+	display: flex;
+	gap: 35px;
+}
+
+.nav__burger {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	padding: 5px;
+	margin-left: 250px;
+	cursor: pointer;
+}
+
+.nav__burger:hover .burger {
+	background-color: #ff285c;
+	transition: 0.3s;
+}
+
+.burger {
+	width: 10px;
+	height: 10px;
+	background-color: #fff;
+	border-radius: 50%;
+}
