@@ -52,14 +52,14 @@
 
 .main__block__info__el {
 	background-color: #fff;
-	width: 100px;
-	height: 100px;
+	width: 50px;
+	height: 50px;
 	border-style: solid;
 	border-radius: 50%;
 	border-color: #fff;
 	margin: 25px;
 	float: right;
-	padding: 20px;
+	padding: 10px;
 	cursor: pointer;
 	transition: 0.3s ease-in-out;
 	clip-path: circle(0%);
@@ -69,23 +69,23 @@
 	width: 100%;
 	display: flex;
 	flex-direction: column;
-	padding: 40px 60px;
+	padding: 20px 30px;
 	transform: translateY(+100%);
 	border-radius: 3rem;
 	transition: 0.3s ease-in-out;
 }
 
 .main__block__info__text__title {
-	color: #fff;
-	font-weight: 700;
-	font-size: 1.4rem;
-	margin-bottom: 40px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
 }
 
 .main__block__info__text__sybtitle {
-	color: #fff;
-	font-weight: 600;
-	font-size: 1.1rem;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
 }
 
 .main__block:hover .main__video {

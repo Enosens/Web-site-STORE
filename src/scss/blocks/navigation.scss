@@ -1,12 +1,25 @@
 .navigation {
 	display: flex;
+	margin-top: 120px;
+}
+
+.navigation span{
+	display: flex;
+	gap: 10px;
+	color: #fff;
+	align-items: center;
 }
 
 .navigation a {
 	color: #fff;
 	font-weight: 700;
 	font-size: 1rem;
-	margin: 25px 30px;
+	margin: 5px;
+	transition: .3s ease-in-out;
+}
+
+.navigation a:hover{
+	color: #ff285c;
 }
 
 .title {
@@ -16,6 +29,6 @@
 .title span {
 	color: #fff;
 	font-weight: 700;
-	font-size: 5rem;
-	margin: 25px 30px;
+	font-size: 3rem;
+	margin: 25px 5px;
 }
