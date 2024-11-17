@@ -11,9 +11,9 @@
 	background: linear-gradient(#120e1c 0%, #120e1c99 25%, rgba(0, 0, 0, 0) 100%);
 }
 
-.nav:hover{
-		background-color: #ffffff9a;
-		transition: background-color .3s;
+.nav:hover {
+	background-color: #ffffff9a;
+	transition: background-color 0.3s;
 }
 
 .logo {
@@ -39,12 +39,12 @@
 .nav__info a {
 	color: #fff;
 	font-weight: 600;
-  font-size: 1.1rem;
+	font-size: 1.1rem;
+	transition: 0.3s ease-in-out;
 }
 
 .nav__info a:hover {
 	color: #ff285c;
-	transition: 0.3s;
 }
 
 .nav__info {
