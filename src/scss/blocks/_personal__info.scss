@@ -1,0 +1,83 @@
+.personal__info {
+	display: flex;
+	width: 100%;
+	border-radius: 3rem;
+	overflow: hidden;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #ff285c;
+}
+
+.personal__info__img {
+	width: 50%;
+}
+
+.personal__info__img img {
+	width: 100%;
+	height: fit-content;
+}
+
+.personal__info__content {
+  width: 50%;
+	padding: 10px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.personal__info__content__title {
+	color: #fff;
+	font-weight: 700;
+	font-size: 2.3rem;
+}
+
+.personal__info__content__sybtitle {
+	color: #fff;
+	font-weight: 700;
+	font-size: 2rem;
+}
+
+.personal__info__content__info {
+	color: #fff;
+	font-weight: 700;
+	font-size: 1.3rem;
+}
+
+.personal__info__content__text{
+  color: #fff;
+  text-align: justify;
+}
+
+.personal__info__content__info__inner {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+.personal__info__content__info__inner__el {
+	display: flex;
+	flex-direction: column;
+	width: calc(50% - 5px);
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: #fff;
+  padding-bottom: 5px;
+}
+
+
+.personal__info__content__info__inner__el__title {
+	color: #fff;
+	font-size: 1rem;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.personal__info__content__info__inner__el__text {
+	color: #fff;
+	font-size: 0.8rem;
+  transition: .3s ease-in-out;
+}
+
+.personal__info__content__info__inner__el>a>span:hover{
+    color: #ff285c;
+}
